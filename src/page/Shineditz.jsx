@@ -7,10 +7,16 @@ function Shineditz() {
   useEffect(()=>{
     window.scrollTo(0,0)
   },[])
+
+  const topSectionStyle = {
+    color: '#007a78',
+};
+
+
   return (
     <div>
         <Header/>
-        <TopSection image='pge-top-bgDivShine' title="Shineditz" style={'#007a78'} class="shineditzText" />
+        <TopSection image='pge-top-bgDivShine' title="Shineditz" style={topSectionStyle} class="shineditzText" />
         <Footer/>
     </div>
   )

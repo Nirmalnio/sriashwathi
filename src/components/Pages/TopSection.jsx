@@ -4,7 +4,7 @@ function TopSection({ image, title, style }) {
     <div className={image}>
       <div>
         <h1 className='headtopBan'>Designing</h1>
-        <h1 className={`topheadtitle`} style={{ color: style }}>{title}</h1>
+        <h1 className={`topheadtitle`} style={{style}}>{title}</h1>
       </div>
     </div>
   );
