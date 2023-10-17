@@ -1,0 +1,119 @@
+.HometopmainDiv {
+  background: url(../../assests/images/bg\ 1\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hometopsecDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17vh 10vw 12vh 10vw;
+  gap: 6vw;
+}
+
+.roletext {
+  color: #F5F5F5;
+  font-family: Avenir;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 1.1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: white;
+}
+
+.hometopleftSec .springArrow {
+  margin-left: 15vw;
+  margin-bottom: -40px;
+}
+
+.hometopleftSec h1 {
+  color: #F5F5F5;
+  font-family: AvenirBold;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.hometopleftSec span {
+  color: #F5F5F5;
+  font-family: Avenir;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 1.1px;
+}
+
+.hometopleftSec button {
+  display: flex;
+  width: 180px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 94px;
+  border: 1px solid #FFF;
+  color: #F5F5F5;
+  font-family: Avenir;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 33px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hometopleftSec button:hover {
+  border: 1px solid var(--new, #31a670);
+}
+
+.hometoprightSec {
+  position: relative;
+}
+
+.hometoprightSec .arrowicon {
+  position: absolute;
+  top: 38%;
+  left: 36%;
+  animation: slide 2s linear infinite;
+}
+
+@keyframes slide {
+
+  0%,
+  100% {
+    top: 40%;
+  }
+
+  50% {
+    top: calc(70px - 1px);
+  }
+}
+
+.circleimg {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.subtexttopSecond {
+  margin: 4vh 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
