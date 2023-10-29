@@ -2,6 +2,7 @@ import React from 'react'
 import "./HomeTopSection.css"
 import circle from "../../assests/images/circle.png"
 import { Staricon, arrow, springarrow } from '../../assests/commonsvg'
+import { Link } from 'react-scroll'
 function HomeTopSection() {
   return (
 <div className='HometopmainDiv' id='about'>
@@ -16,10 +17,12 @@ function HomeTopSection() {
         </div>
 
         <div>
+          <Link to="work" smooth={true}  duration={900}  >
           <div className='hometoprightSec'>
           <div className='arrowicon'>{arrow}</div>
           <img src={circle} className='circleimg' alt='circle' /> 
-          </div>        
+          </div>    
+          </Link>    
         </div>
     </div>
 

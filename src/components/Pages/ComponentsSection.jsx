@@ -23,7 +23,7 @@ function ComponentsSection() {
             <div className='compSecChild'>
                     
                     <div className='compSecText'>
-                         <span>Unique illustrations crafted to complement modern themes and enhance concepts</span>
+                         <span>Eye-catching next-gen popups designed to captivate and engage users instantly</span>
                          <div className='springArrow' style={{display:"flex",justifyContent:"end"}}>{rightspringArrow}</div>
                     </div>
                     <div>
@@ -37,7 +37,7 @@ function ComponentsSection() {
                         <img src={img3} alt="" />
                     </div>
                     <div className='compSecText'>
-                         <span>Unique illustrations crafted to complement modern themes and enhance concepts</span>
+                         <span>Engaging, colorful and captivating courses & webinars cards</span>
                          <div className='springArrow'>{springarrow}</div>
                     </div>
             </div>
@@ -45,7 +45,7 @@ function ComponentsSection() {
             <div className='compSecChild'>
                     
                     <div className='compSecText'>
-                         <span>Unique illustrations crafted to complement modern themes and enhance concepts</span>
+                         <span>Crafted a dual-themed design to address diverse accessibility requirements</span>
                          <div className='springArrow' style={{display:"flex",justifyContent:"end"}}>{rightspringArrow}</div>
                     </div>
                     <div>

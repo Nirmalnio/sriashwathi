@@ -75,6 +75,8 @@
 
 .hometoprightSec {
   position: relative;
+  cursor: pointer;
+
 }
 
 .hometoprightSec .arrowicon {
@@ -82,6 +84,7 @@
   top: 38%;
   left: 36%;
   animation: slide 2s linear infinite;
+  cursor: pointer;
 }
 
 @keyframes slide {

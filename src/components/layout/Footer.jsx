@@ -17,16 +17,16 @@ function Footer() {
             </div>
             <div className='FootermainDiv'>
                 <div>{Emailicon}
-                    <a /* href='' */> Email </a>
+                    <a href="mailto:sriashwathi111@gmail.com"> Email </a>
                 </div>
                 <div>{Linkedinicon}
-                    <a /* href='' */> LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/sri-ashwathi-r-840375212/'> LinkedIn</a>
                 </div>
                 <div >{InstagramIcon}
-                    <a /* href='' */>Instagram</a>
+                    <a  href='https://www.instagram.com/_ux_world_/'>Instagram</a>
                 </div>
                 <div>{callicon}
-                    <a /* href='' */>+91 8110960999</a>
+                    <a  href='tel:+91 8110960999'>+91 8110960999</a>
                 </div>
 
             </div>

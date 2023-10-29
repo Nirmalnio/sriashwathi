@@ -1,10 +1,10 @@
 import React from 'react';
-function TopSection({ image, title, style }) {
+function TopSection({ image, title, style,classnm}) {
   return (
     <div className={image}>
-      <div>
+      <div className={classnm}>
         <h1 className='headtopBan'>Designing</h1>
-        <h1 className={`topheadtitle`} style={{style}}>{title}</h1>
+        <h1 className='topheadtitle' style={{style}}>{title}</h1>
       </div>
     </div>
   );
