@@ -31,12 +31,15 @@ function CourseDetails() {
             <div>
               <ul>
                 <li>
-                  Experimented with a unique design, featuring a circular format
-                  for the trailer video.
+                  Strategically placed prominent and large call to action button
+                  for user attention.
                 </li>
                 <li>
-                  Positioned it at the top right to captivate users and aid in
-                  their course selection.
+                  Internal scroll highlights subscription plans for seamless
+                  browsing.
+                </li>
+                <li>
+                  Sticky bottom navigation enables easy enrollment at any point.
                 </li>
               </ul>
             </div>
@@ -47,12 +50,10 @@ function CourseDetails() {
             <div>
               <ul className="addrightspac">
                 <li>
-                  Experimented with a unique design, featuring a circular format
-                  for the trailer video.
+                Boosted conversion rates by placing ratings, reviews, and enrollments below CTA.
                 </li>
                 <li>
-                  Positioned it at the top right to captivate users and aid in
-                  their course selection.
+                Internal scroll highlights reviews for user trust.
                 </li>
               </ul>
             </div>
